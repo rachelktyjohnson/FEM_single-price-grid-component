@@ -3,6 +3,138 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: hsl(204deg, 43%, 93%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+p, li {
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  line-height: 2;
+}
+
+main {
+  max-width: 300px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+}
+main > div {
+  padding: 25px;
+}
+@media (min-width: 600px) {
+  main > div {
+    padding: 30px 40px;
+  }
+}
+main > div h3 {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 15px;
+}
+@media (min-width: 600px) {
+  main {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+div.intro {
+  grid-column: 1/3;
+  border-radius: 5px 5px 0 0;
+}
+div.intro h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media (min-width: 600px) {
+  div.intro h1 {
+    font-size: 1.5rem;
+  }
+}
+div.intro h2 {
+  color: hsl(71deg, 73%, 54%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 20px 0;
+}
+@media (min-width: 600px) {
+  div.intro h2 {
+    font-size: 1.1rem;
+  }
+}
+div.intro p {
+  color: hsl(218deg, 22%, 67%);
+  font-size: 0.85rem;
+}
+
+div.subscription {
+  background: hsl(179deg, 62%, 43%);
+}
+@media (min-width: 600px) {
+  div.subscription {
+    border-radius: 0 0 0 5px;
+  }
+}
+div.subscription .price {
+  display: flex;
+  align-items: center;
+}
+div.subscription .price .value {
+  font-size: 1.9rem;
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  display: block;
+  margin-right: 10px;
+}
+div.subscription .price .per-month {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+div.subscription p {
+  color: white;
+}
+div.subscription button {
+  color: white;
+  background: hsl(71deg, 73%, 54%);
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: "Karla", sans-serif;
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
+}
+
+div.why-us {
+  background: #4ABEBD;
+  border-radius: 0 0 5px 5px;
+}
+@media (min-width: 600px) {
+  div.why-us {
+    border-radius: 0 0 5px 0;
+  }
+}
+div.why-us ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.75;
 }
 
 /*# sourceMappingURL=styles.css.map */
