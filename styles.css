@@ -35,7 +35,7 @@ main {
 main > div {
   padding: 25px;
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   main > div {
     padding: 30px 40px;
   }
@@ -45,7 +45,7 @@ main > div h3 {
   color: white;
   margin-bottom: 15px;
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   main {
     max-width: 600px;
     display: grid;
@@ -62,7 +62,7 @@ div.intro h1 {
   font-size: 1.2rem;
   font-weight: 700;
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   div.intro h1 {
     font-size: 1.5rem;
   }
@@ -73,7 +73,7 @@ div.intro h2 {
   font-size: 0.9rem;
   margin: 20px 0;
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   div.intro h2 {
     font-size: 1.1rem;
   }
@@ -86,7 +86,7 @@ div.intro p {
 div.subscription {
   background: hsl(179deg, 62%, 43%);
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   div.subscription {
     border-radius: 0 0 0 5px;
   }
@@ -126,7 +126,7 @@ div.why-us {
   background: #4ABEBD;
   border-radius: 0 0 5px 5px;
 }
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   div.why-us {
     border-radius: 0 0 5px 0;
   }
